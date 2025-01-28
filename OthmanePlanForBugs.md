@@ -13,3 +13,11 @@
     Access the created user's contract section.
     Attempt to modify the contract date field.
 ###Status: New
+
+###Title: id 6 Error 500 when deleting a team with a user
+###Steps to Reproduce:
+    Navigate to "Create new team" and create a team with valid details.
+    Add a user to the newly created team.
+    Attempt to delete the team.
+    Observe the error displayed.
+Status: New
