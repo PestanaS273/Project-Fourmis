@@ -44,7 +44,8 @@ Error 500 when deleting a team with a user
     Add a user to the newly created team.
     Attempt to delete the team.
     Observe the error displayed.
-### Status: New
+### Status: 
+New
 
 #### ID8
 ### test Description:
