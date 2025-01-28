@@ -10,6 +10,6 @@ Numéro test:
 | 006 F| Delete Team     | Cree un groupe, rajotuer un utilisateur, essayer d'effacer le groupe | Page Error 500 |
 | 007 | Rajouter deux fois dans un groupe  | Creer un utilisateur, le rajotuer dans un equipe plusieurs fois | Pas de message ou erreur qui indique que l'utilisateur est deja dans le groupe |
 | 008 | Address City  | Au moment de créer un utilisateur, mettre que des numéros | Pas d'erreur |
-| 009 | Functionnalité  | .... | ...|
+| 009 | Deux Fois meme email  | Si on crée deux user identiques, y a pas d'erreur | apparition deux fois du mail dans les user, on peut pas avoir deux fois le meme email |
 | 010 | Functionnalité  | .... | ...|
 
