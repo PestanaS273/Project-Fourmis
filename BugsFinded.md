@@ -12,7 +12,7 @@ Numéro test:
 | 008 F| Address City  | Au moment de créer un utilisateur, mettre que des numéros | Pas d'erreur déclanché|
 | 009 F| Deux Fois meme email  | Si on crée deux user identiques, y a pas d'erreur | apparition deux fois du mail dans les user, on peut pas avoir deux fois le meme email |
 | 010 f| Caracteres speciaux nom  | Creer un utilisateur avec des caracteres comme @, ! $... | Pas d'erreur déclanché |
-| 011 | Functionnalité  | .... | ...|
+| 011 | Plusieurs managers dans une équipe  | Creer un groupe et rajouter plusieurs managers a l'interieur | Pas d'erreur, on peut avoir plusieurs managers au sein d'une equipe, ce qui est pas normal |
 | 012 | Functionnalité  | .... | ...|
 | 013 | Functionnalité  | .... | ...|
 
