@@ -8,7 +8,7 @@ Numéro test:
 | 004 | Modification Date  | creer utlisateur, update contract, update date |impossible de modif la date|
 | 005 | Promote User  | Promote un utilisateur | On peut plus le rendre un user normal, il faut reset la database |
 | 006 | Delete Team     | Cree un groupe, rajotuer un utilisateur, essayer d'effacer le groupe | Page Error 500 |
-| 007 | Functionnalité  | .... | ...|
+| 007 | Rajouter deux fois dans un groupe  | Creer un utilisateur, le rajotuer dans un equipe plusieurs fois | Pas de message ou erreur qui indique que l'utilisateur est deja dans le groupe |
 | 008 | Functionnalité  | .... | ...|
 | 009 | Functionnalité  | .... | ...|
 | 010 | Functionnalité  | .... | ...|
