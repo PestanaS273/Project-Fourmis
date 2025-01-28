@@ -7,7 +7,7 @@ Numéro test:
 | 003 | Eliminer groupe  | Si le groupe ne contient pas d'utilisateur, on l'efface | Effacement correct du groupe |
 | 004 | Selectionner un groupe  | Si on ne selectionne pas un groupe pour un user, on peut pas continuer | Fonctionnement correct |
 | 005 | Functionnalité  | creer un user, modifier le user | modification correcte|
-| 006 | Functionnalité  | .... | ...|
+| 006 | Creer deux fois le meme groupe  | Creer deux fois un team avec le meme nom | Erreur qui indique que le groupe existe deja |
 | 007 | Functionnalité  | .... | ...|
 | 008 | Functionnalité  | .... | ...|
 | 009 | Functionnalité  | .... | ...|
