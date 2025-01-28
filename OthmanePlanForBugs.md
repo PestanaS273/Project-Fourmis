@@ -63,3 +63,17 @@ No validation error when entering only numbers in the "City" field
     Submit the form to create the user.
 ### Status: 
 New
+#### ID10
+### test Description:
+Create a user with special characters in the "Name" field (e.g., @, !, $)
+### Successful or not:
+Not successful
+### Comments: 
+No error message is displayed, and the user is created with an invalid name.
+### Title: 
+Navigate to "Add new employee" and open the user creation form.
+Fill out all required fields.
+Enter special characters (e.g., "@John!", "$UserName") in the "Name" field.
+Submit the form to create the user.
+### Status: 
+New
