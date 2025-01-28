@@ -96,3 +96,20 @@ Repeat the process using the same email address.
 Observe that the email address appears for two different users.
 ### Status: 
 New
+#### ID11
+### test Description:
+Create a team and assign multiple managers to it
+### Successful or not:
+Not successful
+### Comments: 
+Multiple managers can be assigned to a single team, which should not be allowed.
+### Title: 
+Multiple managers can be assigned to the same team
+### Steps to Reproduce:
+Navigate to "Create new team" and open the team creation form.
+Fill out the required fields to create a team.
+Add one manager to the team.
+Attempt to add additional managers to the same team.
+Observe that the team accepts multiple managers without any validation error.
+### Status: 
+New
