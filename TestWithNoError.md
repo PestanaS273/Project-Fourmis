@@ -4,14 +4,14 @@ Numéro test:
 |-----|-----------------|----------------|-----------------|
 | 001 | Creer utilisateur  | Laisser des espaces vides  | Site demande de completer toutes les infos |
 | 002 | Creer email utilisateur  | Ne pas utiliser @ ou .com dans l'email | Verification correcte du format du mail |
-| 009 | Eliminer groupe  | Si le groupe ne contient pas d'utilisateur, on l'efface | Effacement correct du groupe |
-| 010 | Selectionner un groupe  | Si on ne selectionne pas un groupe pour un user, on peut pas continuer | Fonctionnement correct |
-| 009 | Functionnalité  | creer un user, modifier le user | modification correcte|
-| 010 | Functionnalité  | .... | ...|
+| 003 | Eliminer groupe  | Si le groupe ne contient pas d'utilisateur, on l'efface | Effacement correct du groupe |
+| 004 | Selectionner un groupe  | Si on ne selectionne pas un groupe pour un user, on peut pas continuer | Fonctionnement correct |
+| 005 | Functionnalité  | creer un user, modifier le user | modification correcte|
+| 006 | Functionnalité  | .... | ...|
+| 007 | Functionnalité  | .... | ...|
+| 008 | Functionnalité  | .... | ...|
 | 009 | Functionnalité  | .... | ...|
 | 010 | Functionnalité  | .... | ...|
-| 009 | Functionnalité  | .... | ...|
-| 010 | Functionnalité  | .... | ...|
-| 009 | Functionnalité  | .... | ...|
-| 010 | Functionnalité  | .... | ...|
+| 011 | Functionnalité  | .... | ...|
+| 012 | Functionnalité  | .... | ...|
 
