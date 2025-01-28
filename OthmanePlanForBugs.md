@@ -73,7 +73,26 @@ No error message is displayed, and the user is created with an invalid name.
 ### Title: 
 Navigate to "Add new employee" and open the user creation form.
 Fill out all required fields.
+### Steps to Reproduce:
+Navigate to "Add new employee" and open the user creation form.
+Fill out all required fields.
 Enter special characters (e.g., "@John!", "$UserName") in the "Name" field.
 Submit the form to create the user.
+### Status: 
+New
+#### ID9
+### test Description:
+Create two users with the same email address### Successful or not:
+Not successful
+### Comments: 
+The same email address is allowed for multiple users, which should not be permitted.
+### Title: 
+Duplicate email addresses allowed during user creation
+### Steps to Reproduce:
+Navigate to "Add new employee" and open the user creation form.
+Fill out all required fields, including an email address (e.g., "user@example.com").
+Submit the form to create the first user.
+Repeat the process using the same email address.
+Observe that the email address appears for two different users.
 ### Status: 
 New
