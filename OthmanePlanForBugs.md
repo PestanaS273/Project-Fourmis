@@ -44,7 +44,21 @@ Error 500 when deleting a team with a user
     Add a user to the newly created team.
     Attempt to delete the team.
     Observe the error displayed.
+### Status: New
+
+#### ID8
+### test Description:
+Create a user and enter only numbers in the "City" field
+### Successful or not:
+Not successful
+### Comments: 
+No error message is displayed, and the user is created with an invalid city name.
+### Title: 
+No validation error when entering only numbers in the "City" field
+### Steps to Reproduce:
+    Navigate to "Add new employee" and open the user creation form.
+    Fill out all required fields.
+    Enter only numbers (e.g., "12345") in the "City" field.
+    Submit the form to create the user.
 ### Status: 
 New
-
-
