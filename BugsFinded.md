@@ -12,4 +12,7 @@ Numéro test:
 | 008 | Address City  | Au moment de créer un utilisateur, mettre que des numéros | Pas d'erreur |
 | 009 | Deux Fois meme email  | Si on crée deux user identiques, y a pas d'erreur | apparition deux fois du mail dans les user, on peut pas avoir deux fois le meme email |
 | 010 | Functionnalité  | .... | ...|
+| 011 | Functionnalité  | .... | ...|
+| 012 | Functionnalité  | .... | ...|
+| 013 | Functionnalité  | .... | ...|
 
