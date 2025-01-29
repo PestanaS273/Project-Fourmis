@@ -40,7 +40,7 @@ class Date {
 class UserPage {
 
     private page: Page;
-
+    
     constructor(page: Page) {
         this.page = page;
     }
@@ -53,7 +53,7 @@ class UserPage {
         await this.page.fill('input[name="address_line2"]', user.address2);
         await this.page.fill('input[name="city"]', user.city);
         await this.page.fill('input[name="zip_code"]', user.zip.toString());
-        await this.page.fill('input[name="hiring_date"]', user.contractDate);
+        await this.page.fill('input[name="hiring_date"]', user.contractDate.toString());
         await this.page.fill('input[name="job_title"]', user.JobTitle);
         await this.page.click("text='Add'");
     }
@@ -179,7 +179,13 @@ test('modify second address line', async () => {
 //   const user = new User(userName, userMail, userAddress1, userAddress2, userCity, userZip, userContractDate, userJobTitle);
 //   await userPage.createUser(user);
 
-//   // Put a 
+//   // Put a future date
+//   const newDate = "2026-01-01";
+//   await userPage.updateUserContractDate(userName, newDate);
+
+//   // Check if date passed
+//   const isAdded = await userPage.isUserVisible(newDate);
+//   expect(isAdded).toBe(false);
 // })
 
 
