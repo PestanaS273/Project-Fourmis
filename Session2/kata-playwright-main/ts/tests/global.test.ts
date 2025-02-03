@@ -6,11 +6,11 @@ class User {
     address1: string;
     address2: string;
     city: string;
-    zip: number;
-    contractDate: Date;
+    zip: string;
+    contractDate: string;
     JobTitle: string;
     
-    constructor(name: string, email: string, address1: string, address2: string, city: string, zip: number, contractDate: Date, JobTitle: string) {
+    constructor(name: string, email: string, address1: string, address2: string, city: string, zip: string, contractDate: string, JobTitle: string) {
         this.name = name;
         this.email = email;
         this.address1 = address1;
