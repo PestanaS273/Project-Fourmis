@@ -13,3 +13,28 @@ However, if we reduce the number of bugs in each update, it will be interesting 
 
 We also remarked that tools like the markdown files we made, or Excel or Word files are not adapted for this type of situations, and most importantly they are not adapted for several persons working on the same file for the same issues. We need ot find a more accurate tool, letting identify and mark down the issues and splitting up the work.
 
+## 03/02/2025
+
+A clean way to perform the tests and keep no new data in the database can be:
+- Creation / Destruction of tables before and after each test.
+    This can make the process of each test really long if we have to perform a lot of migrations
+    But also it is efficient in order to not impact the database at the end of the test.
+    It is Simple and can be executed in parallel
+- Creation / Destruction of each element created in tables before and after each test. 
+    This is more efficient compare to the first solution
+    However, the time consumming can be also easily escaled.
+    It is simple
+
+- In memory: On crois que cette méthode permet de recuperer les IDs des elements crée par les testsn pour executer un 
+    delete for each apres les tests. 
+
+- Rollback: Make tests rollback after each transaction: Django / SQAlchemy le fait, dans d'autres il faut le faire a la main
+    Parallelism guaranteed
+
+- Tests CleanUP: usage not encourage. 
+
+- Unique Random: Genrate an random ID for the team, create the team and make the assert in all teams. We do not clean anymore the Database, we use unique IDs in order to check creations, modifications... This solutions allows to create a Database that can increase each test is runned, so the database will be more likely to the production database. 
+    We can implemente it with 'Faker'
+    Considerable problem could be that some tests cannot be written and it requires coding style.
+    The assertion at the end it's only 'contains' in the table
+
